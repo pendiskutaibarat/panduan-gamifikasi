@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import banner from '/Banner Gamifikasi.png';
 import { BookOpen, Users, Trophy, PlayCircle, CheckCircle, ExternalLink, Menu, X, Star, Clock, Target, ArrowRight, Download, Settings, Eye, BarChart3, Share2, Gamepad2, Award, Zap, Play } from 'lucide-react';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       {/* Header Banner */}
       <div className="w-full">
         <img 
-          src="/Pendis Banner (1).png" 
+          src={banner} 
           alt="Kementerian Agama - Pendidikan Islam" 
           className="w-full h-auto object-cover"
         />
